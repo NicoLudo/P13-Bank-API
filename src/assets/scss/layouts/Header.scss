@@ -1,0 +1,25 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 20px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .main-nav-item {
+    text-decoration: none;
+    margin-right: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (min-width: 425px) {
+    flex-direction: row;
+  }
+}
